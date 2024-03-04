@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C368DAA2B79EAD700EF7F78 /* MLCameraNewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C368DA92B79EAD700EF7F78 /* MLCameraNewApp.swift */; };
+		6C368DAE2B79EAD800EF7F78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C368DAD2B79EAD800EF7F78 /* Assets.xcassets */; };
+		6C368DB22B79EAD800EF7F78 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C368DB12B79EAD800EF7F78 /* Preview Assets.xcassets */; };
+		6C368DD72B79EB1800EF7F78 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C368DB82B79EB1600EF7F78 /* CameraView.swift */; };
+		6C368DD82B79EB1800EF7F78 /* Dataset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C368DB92B79EB1700EF7F78 /* Dataset.swift */; };
+		6C368DD92B79EB1800EF7F78 /* MLModelListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C368DBA2B79EB1700EF7F78 /* MLModelListView.swift */; };
+		6C368DDA2B79EB1800EF7F78 /* ValidationDatasetImageGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C368DBB2B79EB1700EF7F78 /* ValidationDatasetImageGrid.swift */; };
+		6C368DDB2B79EB1800EF7F78 /* TrainerDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C368DBC2B79EB1700EF7F78 /* TrainerDataModel.swift */; };
+		6C368DDC2B79EB1800EF7F78 /* ViewfinderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C368DBD2B79EB1700EF7F78 /* ViewfinderView.swift */; };
+		6C368DDD2B79EB1800EF7F78 /* HandPoseNodeOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C368DBE2B79EB1700EF7F78 /* HandPoseNodeOverlay.swift */; };
+		6C368DDE2B79EB1800EF7F78 /* TrainingDatasetImageGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C368DBF2B79EB1700EF7F78 /* TrainingDatasetImageGrid.swift */; };
+		6C368DDF2B79EB1800EF7F78 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C368DC02B79EB1700EF7F78 /* Colors.swift */; };
+		6C368DE02B79EB1800EF7F78 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C368DC12B79EB1700EF7F78 /* GameView.swift */; };
+		6C368DE12B79EB1800EF7F78 /* CameraFrameOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C368DC22B79EB1700EF7F78 /* CameraFrameOverlay.swift */; };
+		6C368DE22B79EB1800EF7F78 /* HandPoseMLModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C368DC32B79EB1700EF7F78 /* HandPoseMLModel.swift */; };
+		6C368DE32B79EB1800EF7F78 /* HandPoseTrainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C368DC42B79EB1700EF7F78 /* HandPoseTrainer.swift */; };
+		6C368DE42B79EB1800EF7F78 /* MoveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C368DC52B79EB1700EF7F78 /* MoveView.swift */; };
+		6C368DE52B79EB1800EF7F78 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C368DC62B79EB1700EF7F78 /* Camera.swift */; };
+		6C368DE62B79EB1800EF7F78 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C368DC72B79EB1700EF7F78 /* ContentView.swift */; };
+		6C368DE72B79EB1800EF7F78 /* PredictionLabelOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C368DC82B79EB1700EF7F78 /* PredictionLabelOverlay.swift */; };
+		6C368DE82B79EB1800EF7F78 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C368DC92B79EB1800EF7F78 /* GameModel.swift */; };
+		6C368DE92B79EB1800EF7F78 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C368DCA2B79EB1800EF7F78 /* AppModel.swift */; };
+		6C368DEA2B79EB1800EF7F78 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C368DCB2B79EB1800EF7F78 /* CellView.swift */; };
+		6C368DEB2B79EB1800EF7F78 /* GameMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C368DCC2B79EB1800EF7F78 /* GameMove.swift */; };
+		6C368DEC2B79EB1800EF7F78 /* TrainingDatasetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C368DCD2B79EB1800EF7F78 /* TrainingDatasetCell.swift */; };
+		6C368DED2B79EB1800EF7F78 /* HandPoseUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C368DCE2B79EB1800EF7F78 /* HandPoseUtils.swift */; };
+		6C368DEE2B79EB1800EF7F78 /* RPSGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C368DCF2B79EB1800EF7F78 /* RPSGameView.swift */; };
+		6C368DEF2B79EB1800EF7F78 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C368DD02B79EB1800EF7F78 /* Styles.swift */; };
+		6C368DF02B79EB1800EF7F78 /* DatasetImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C368DD12B79EB1800EF7F78 /* DatasetImage.swift */; };
+		6C368DF12B79EB1800EF7F78 /* URLHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C368DD22B79EB1800EF7F78 /* URLHelper.swift */; };
+		6C368DF22B79EB1800EF7F78 /* PhotoPickerDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C368DD32B79EB1800EF7F78 /* PhotoPickerDataModel.swift */; };
+		6C368DF32B79EB1800EF7F78 /* MLCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C368DD42B79EB1800EF7F78 /* MLCamera.swift */; };
+		6C368DF42B79EB1800EF7F78 /* Metrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C368DD52B79EB1800EF7F78 /* Metrics.swift */; };
+		6C368DF52B79EB1800EF7F78 /* TrainingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C368DD62B79EB1800EF7F78 /* TrainingView.swift */; };
+		6C368DF72B79EB4200EF7F78 /* MLGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C368DF62B79EB4200EF7F78 /* MLGameView.swift */; };
+		6C368DFD2B79ECD900EF7F78 /* DebugModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C368DFC2B79ECD900EF7F78 /* DebugModeView.swift */; };
+		6C368E2D2B7DC3C300EF7F78 /* rockpaperscissors.dir in Resources */ = {isa = PBXBuildFile; fileRef = 6C368E2C2B7DC3C300EF7F78 /* rockpaperscissors.dir */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6C368DA62B79EAD700EF7F78 /* MLCameraNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLCameraNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C368DA92B79EAD700EF7F78 /* MLCameraNewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLCameraNewApp.swift; sourceTree = "<group>"; };
+		6C368DAD2B79EAD800EF7F78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C368DAF2B79EAD800EF7F78 /* MLCameraNew.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MLCameraNew.entitlements; sourceTree = "<group>"; };
+		6C368DB12B79EAD800EF7F78 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6C368DB82B79EB1600EF7F78 /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		6C368DB92B79EB1700EF7F78 /* Dataset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dataset.swift; sourceTree = "<group>"; };
+		6C368DBA2B79EB1700EF7F78 /* MLModelListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLModelListView.swift; sourceTree = "<group>"; };
+		6C368DBB2B79EB1700EF7F78 /* ValidationDatasetImageGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationDatasetImageGrid.swift; sourceTree = "<group>"; };
+		6C368DBC2B79EB1700EF7F78 /* TrainerDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainerDataModel.swift; sourceTree = "<group>"; };
+		6C368DBD2B79EB1700EF7F78 /* ViewfinderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewfinderView.swift; sourceTree = "<group>"; };
+		6C368DBE2B79EB1700EF7F78 /* HandPoseNodeOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandPoseNodeOverlay.swift; sourceTree = "<group>"; };
+		6C368DBF2B79EB1700EF7F78 /* TrainingDatasetImageGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainingDatasetImageGrid.swift; sourceTree = "<group>"; };
+		6C368DC02B79EB1700EF7F78 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		6C368DC12B79EB1700EF7F78 /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		6C368DC22B79EB1700EF7F78 /* CameraFrameOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraFrameOverlay.swift; sourceTree = "<group>"; };
+		6C368DC32B79EB1700EF7F78 /* HandPoseMLModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandPoseMLModel.swift; sourceTree = "<group>"; };
+		6C368DC42B79EB1700EF7F78 /* HandPoseTrainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandPoseTrainer.swift; sourceTree = "<group>"; };
+		6C368DC52B79EB1700EF7F78 /* MoveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveView.swift; sourceTree = "<group>"; };
+		6C368DC62B79EB1700EF7F78 /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		6C368DC72B79EB1700EF7F78 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6C368DC82B79EB1700EF7F78 /* PredictionLabelOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PredictionLabelOverlay.swift; sourceTree = "<group>"; };
+		6C368DC92B79EB1800EF7F78 /* GameModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		6C368DCA2B79EB1800EF7F78 /* AppModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		6C368DCB2B79EB1800EF7F78 /* CellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		6C368DCC2B79EB1800EF7F78 /* GameMove.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameMove.swift; sourceTree = "<group>"; };
+		6C368DCD2B79EB1800EF7F78 /* TrainingDatasetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainingDatasetCell.swift; sourceTree = "<group>"; };
+		6C368DCE2B79EB1800EF7F78 /* HandPoseUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandPoseUtils.swift; sourceTree = "<group>"; };
+		6C368DCF2B79EB1800EF7F78 /* RPSGameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPSGameView.swift; sourceTree = "<group>"; };
+		6C368DD02B79EB1800EF7F78 /* Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		6C368DD12B79EB1800EF7F78 /* DatasetImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatasetImage.swift; sourceTree = "<group>"; };
+		6C368DD22B79EB1800EF7F78 /* URLHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLHelper.swift; sourceTree = "<group>"; };
+		6C368DD32B79EB1800EF7F78 /* PhotoPickerDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoPickerDataModel.swift; sourceTree = "<group>"; };
+		6C368DD42B79EB1800EF7F78 /* MLCamera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLCamera.swift; sourceTree = "<group>"; };
+		6C368DD52B79EB1800EF7F78 /* Metrics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Metrics.swift; sourceTree = "<group>"; };
+		6C368DD62B79EB1800EF7F78 /* TrainingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainingView.swift; sourceTree = "<group>"; };
+		6C368DF62B79EB4200EF7F78 /* MLGameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLGameView.swift; sourceTree = "<group>"; };
+		6C368DFC2B79ECD900EF7F78 /* DebugModeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugModeView.swift; sourceTree = "<group>"; };
+		6C368E2C2B7DC3C300EF7F78 /* rockpaperscissors.dir */ = {isa = PBXFileReference; lastKnownFileType = file; name = rockpaperscissors.dir; path = MLCameraNew/Resources/rockpaperscissors.dir; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C368DA32B79EAD700EF7F78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C368D9D2B79EAD700EF7F78 = {
+			isa = PBXGroup;
+			children = (
+				6C368E252B7DC12200EF7F78 /* Resources */,
+				6C368DA82B79EAD700EF7F78 /* MLCameraNew */,
+				6C368DA72B79EAD700EF7F78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C368DA72B79EAD700EF7F78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C368DA62B79EAD700EF7F78 /* MLCameraNew.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C368DA82B79EAD700EF7F78 /* MLCameraNew */ = {
+			isa = PBXGroup;
+			children = (
+				6C368DA92B79EAD700EF7F78 /* MLCameraNewApp.swift */,
+				6C368DF62B79EB4200EF7F78 /* MLGameView.swift */,
+				6C368DFC2B79ECD900EF7F78 /* DebugModeView.swift */,
+				6C368DCA2B79EB1800EF7F78 /* AppModel.swift */,
+				6C368DC62B79EB1700EF7F78 /* Camera.swift */,
+				6C368DC22B79EB1700EF7F78 /* CameraFrameOverlay.swift */,
+				6C368DB82B79EB1600EF7F78 /* CameraView.swift */,
+				6C368DCB2B79EB1800EF7F78 /* CellView.swift */,
+				6C368DC02B79EB1700EF7F78 /* Colors.swift */,
+				6C368DC72B79EB1700EF7F78 /* ContentView.swift */,
+				6C368DB92B79EB1700EF7F78 /* Dataset.swift */,
+				6C368DD12B79EB1800EF7F78 /* DatasetImage.swift */,
+				6C368DC92B79EB1800EF7F78 /* GameModel.swift */,
+				6C368DCC2B79EB1800EF7F78 /* GameMove.swift */,
+				6C368DC12B79EB1700EF7F78 /* GameView.swift */,
+				6C368DC32B79EB1700EF7F78 /* HandPoseMLModel.swift */,
+				6C368DBE2B79EB1700EF7F78 /* HandPoseNodeOverlay.swift */,
+				6C368DC42B79EB1700EF7F78 /* HandPoseTrainer.swift */,
+				6C368DCE2B79EB1800EF7F78 /* HandPoseUtils.swift */,
+				6C368DD52B79EB1800EF7F78 /* Metrics.swift */,
+				6C368DD42B79EB1800EF7F78 /* MLCamera.swift */,
+				6C368DBA2B79EB1700EF7F78 /* MLModelListView.swift */,
+				6C368DC52B79EB1700EF7F78 /* MoveView.swift */,
+				6C368DD32B79EB1800EF7F78 /* PhotoPickerDataModel.swift */,
+				6C368DC82B79EB1700EF7F78 /* PredictionLabelOverlay.swift */,
+				6C368DCF2B79EB1800EF7F78 /* RPSGameView.swift */,
+				6C368DD02B79EB1800EF7F78 /* Styles.swift */,
+				6C368DBC2B79EB1700EF7F78 /* TrainerDataModel.swift */,
+				6C368DCD2B79EB1800EF7F78 /* TrainingDatasetCell.swift */,
+				6C368DBF2B79EB1700EF7F78 /* TrainingDatasetImageGrid.swift */,
+				6C368DD62B79EB1800EF7F78 /* TrainingView.swift */,
+				6C368DD22B79EB1800EF7F78 /* URLHelper.swift */,
+				6C368DBB2B79EB1700EF7F78 /* ValidationDatasetImageGrid.swift */,
+				6C368DBD2B79EB1700EF7F78 /* ViewfinderView.swift */,
+				6C368DAD2B79EAD800EF7F78 /* Assets.xcassets */,
+				6C368DAF2B79EAD800EF7F78 /* MLCameraNew.entitlements */,
+				6C368DB02B79EAD800EF7F78 /* Preview Content */,
+			);
+			path = MLCameraNew;
+			sourceTree = "<group>";
+		};
+		6C368DB02B79EAD800EF7F78 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6C368DB12B79EAD800EF7F78 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6C368E252B7DC12200EF7F78 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6C368E2C2B7DC3C300EF7F78 /* rockpaperscissors.dir */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C368DA52B79EAD700EF7F78 /* MLCameraNew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C368DB52B79EAD800EF7F78 /* Build configuration list for PBXNativeTarget "MLCameraNew" */;
+			buildPhases = (
+				6C368DA22B79EAD700EF7F78 /* Sources */,
+				6C368DA32B79EAD700EF7F78 /* Frameworks */,
+				6C368DA42B79EAD700EF7F78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MLCameraNew;
+			productName = MLCameraNew;
+			productReference = 6C368DA62B79EAD700EF7F78 /* MLCameraNew.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C368D9E2B79EAD700EF7F78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					6C368DA52B79EAD700EF7F78 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 6C368DA12B79EAD700EF7F78 /* Build configuration list for PBXProject "MLCameraNew" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C368D9D2B79EAD700EF7F78;
+			productRefGroup = 6C368DA72B79EAD700EF7F78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C368DA52B79EAD700EF7F78 /* MLCameraNew */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C368DA42B79EAD700EF7F78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C368DB22B79EAD800EF7F78 /* Preview Assets.xcassets in Resources */,
+				6C368DAE2B79EAD800EF7F78 /* Assets.xcassets in Resources */,
+				6C368E2D2B7DC3C300EF7F78 /* rockpaperscissors.dir in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C368DA22B79EAD700EF7F78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C368DE52B79EB1800EF7F78 /* Camera.swift in Sources */,
+				6C368DDA2B79EB1800EF7F78 /* ValidationDatasetImageGrid.swift in Sources */,
+				6C368DEE2B79EB1800EF7F78 /* RPSGameView.swift in Sources */,
+				6C368DEC2B79EB1800EF7F78 /* TrainingDatasetCell.swift in Sources */,
+				6C368DF52B79EB1800EF7F78 /* TrainingView.swift in Sources */,
+				6C368DDF2B79EB1800EF7F78 /* Colors.swift in Sources */,
+				6C368DE92B79EB1800EF7F78 /* AppModel.swift in Sources */,
+				6C368DD82B79EB1800EF7F78 /* Dataset.swift in Sources */,
+				6C368DE72B79EB1800EF7F78 /* PredictionLabelOverlay.swift in Sources */,
+				6C368DE42B79EB1800EF7F78 /* MoveView.swift in Sources */,
+				6C368DD92B79EB1800EF7F78 /* MLModelListView.swift in Sources */,
+				6C368DAA2B79EAD700EF7F78 /* MLCameraNewApp.swift in Sources */,
+				6C368DE62B79EB1800EF7F78 /* ContentView.swift in Sources */,
+				6C368DF22B79EB1800EF7F78 /* PhotoPickerDataModel.swift in Sources */,
+				6C368DE32B79EB1800EF7F78 /* HandPoseTrainer.swift in Sources */,
+				6C368DE82B79EB1800EF7F78 /* GameModel.swift in Sources */,
+				6C368DF42B79EB1800EF7F78 /* Metrics.swift in Sources */,
+				6C368DEB2B79EB1800EF7F78 /* GameMove.swift in Sources */,
+				6C368DEF2B79EB1800EF7F78 /* Styles.swift in Sources */,
+				6C368DE02B79EB1800EF7F78 /* GameView.swift in Sources */,
+				6C368DD72B79EB1800EF7F78 /* CameraView.swift in Sources */,
+				6C368DFD2B79ECD900EF7F78 /* DebugModeView.swift in Sources */,
+				6C368DE22B79EB1800EF7F78 /* HandPoseMLModel.swift in Sources */,
+				6C368DED2B79EB1800EF7F78 /* HandPoseUtils.swift in Sources */,
+				6C368DF02B79EB1800EF7F78 /* DatasetImage.swift in Sources */,
+				6C368DF12B79EB1800EF7F78 /* URLHelper.swift in Sources */,
+				6C368DDB2B79EB1800EF7F78 /* TrainerDataModel.swift in Sources */,
+				6C368DF72B79EB4200EF7F78 /* MLGameView.swift in Sources */,
+				6C368DDE2B79EB1800EF7F78 /* TrainingDatasetImageGrid.swift in Sources */,
+				6C368DF32B79EB1800EF7F78 /* MLCamera.swift in Sources */,
+				6C368DE12B79EB1800EF7F78 /* CameraFrameOverlay.swift in Sources */,
+				6C368DDD2B79EB1800EF7F78 /* HandPoseNodeOverlay.swift in Sources */,
+				6C368DDC2B79EB1800EF7F78 /* ViewfinderView.swift in Sources */,
+				6C368DEA2B79EB1800EF7F78 /* CellView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6C368DB32B79EAD800EF7F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C368DB42B79EAD800EF7F78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		6C368DB62B79EAD800EF7F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MLCameraNew/MLCameraNew.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MLCameraNew/Preview Content\"";
+				DEVELOPMENT_TEAM = F5XWW46LLB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take Photos";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Store Location";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Take Videos";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Save Photos";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eirini.MLCameraNew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C368DB72B79EAD800EF7F78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MLCameraNew/MLCameraNew.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MLCameraNew/Preview Content\"";
+				DEVELOPMENT_TEAM = F5XWW46LLB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take Photos";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Store Location";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Take Videos";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Save Photos";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eirini.MLCameraNew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C368DA12B79EAD700EF7F78 /* Build configuration list for PBXProject "MLCameraNew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C368DB32B79EAD800EF7F78 /* Debug */,
+				6C368DB42B79EAD800EF7F78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C368DB52B79EAD800EF7F78 /* Build configuration list for PBXNativeTarget "MLCameraNew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C368DB62B79EAD800EF7F78 /* Debug */,
+				6C368DB72B79EAD800EF7F78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C368D9E2B79EAD700EF7F78 /* Project object */;
+}
